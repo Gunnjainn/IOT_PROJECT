@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 #include <DHT.h>
 // Replace with your Wi-Fi and MQTT credentials
-const char* ssid = "Aditya";
-const char* password = "sharma123";
+const char* ssid = "Gun";
+const char* password = "gunjain123";
 const char* mqtt_server = "192.168.41.195";  // Replace with RPi IP
 WiFiClient espClient;
 PubSubClient client(espClient);
